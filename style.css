@@ -331,7 +331,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding: 0.5em;
+        padding: 1em;
         gap: 1em;
     }
 
@@ -348,7 +348,7 @@ body {
     }
 
     .mobile-div-2 {
-        width: 33%;
+        width: 25%;
         align-items: center;
     }
 
