@@ -1,0 +1,390 @@
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cinza: #667085;
+    --fundo-botao: #8e2424;
+    --fundo--botao-2: rgb(170, 103, 83);
+    --hover: #8e2424;
+    --vermelho: #8E2424;
+    --fonte-principal: "Inter";
+    --preto: #101828;
+    --card: #C3191908;
+    --card-branco: #F9FAFB;
+
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.cabeçalho div {
+    display: flex;
+}
+
+.cabeçalho-div-1 {
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    gap: 1em;
+}
+
+
+.cabeçalho-div-2 {
+    width: 55%;
+    align-items: center;
+}
+
+.cabeçalho-div-3 {
+    width: 20%;
+    gap: 25px;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.lista-menu li a {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.lista-menu li a:hover {
+    color: var(--hover);
+}
+
+.botao {
+    border: none;
+    color: var(--cinza);
+    background-color: var(--cor-de-fundo);
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: var(--hover);
+}
+
+.botao-2 {
+    padding: 0.5em;
+    color: var(--cor-de-fundo);
+    background-color: var(--fundo-botao);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao-2:hover {
+    background-color: var(--fundo--botao-2)
+}
+
+.cabeçalho-mobile {
+    display: none;
+}
+
+
+.missao {
+    padding-top: 6em;
+    padding-bottom: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.missao p.text-1 {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.missao p.text-2 {
+    width: 80%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.missao p.text-3 {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    text-align: center;
+}
+
+.empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 6em;
+}
+
+.empresa div.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 4em;
+}
+
+.empresa div div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 25%;
+}
+
+.numero {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.titulo {
+    font-size: 18px;
+    color: var(--preto);
+}
+
+.empresa-inf {
+    font-weight: 400;
+    color: var(--cinza)
+}
+
+.principal {
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.principal-items {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.principal-items .info-1 {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.principal-items .info-2 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.principal-items .info-3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.img-item img {
+    width: 100%;
+}
+
+.vagas-inf {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6em;
+    gap: 4em;
+}
+
+.vagas-inf div {
+    width: 64%;
+}
+
+.vagas-inf div h3 {
+    font-size: 20px;
+}
+
+.vagas-inf .container-vagas {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.titulo-vaga {
+    font-size: 20px;
+}
+
+.descrição-vaga {
+    font-size: 18px;
+}
+
+.descricao-salario {
+    font-size: 16px;
+    color: var(--cinza);
+}
+
+.conteudo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.feedback {
+    padding-top: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feedback-container {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card);
+    width: 80%;
+    color: fff;
+    gap: 3em;
+}
+
+.feedback-container div p {
+    text-align: center;
+}
+
+.feedback-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.feedback-sobre {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.feedback-texto {
+    font-size: 36px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    padding-bottom: 6em;
+}
+
+.perfil-função {
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5em;
+    background-color: var(--card-branco);
+}
+
+.rodape-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+}
+
+.rodape-titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape-item {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.email input {
+    border-radius: 4px;
+    padding: 12px 14px 12px 16px;
+}
+
+.email button {
+    padding: 12px;
+}
+
+@media screen and (max-width: 480px) {
+    .cabeçalho {
+        display: none;
+    }
+
+    .cabeçalho-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.5em;
+        gap: 1em;
+    }
+
+    .cabeçalho-mobile div {
+        display: flex;
+    }
+
+    .mobile-div-1 {
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        gap: 0.5em;
+    }
+
+    .mobile-div-2 {
+        width: 33%;
+        align-items: center;
+    }
+
+    .mobile-div-3 {
+        width: 33%;
+        gap: 3px;
+    }
+
+    .botao-mobile {
+        border: none;
+        color: var(--cinza);
+        background-color: var(--cor-de-fundo);
+        cursor: pointer;
+    }
+    
+    .botao-mobile:hover {
+        color: var(--hover);
+    }
+
+    .missao {
+        padding-top: 6em;
+        padding-bottom: 6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+    }
+    
+    .empresa div.container {
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        gap: 3em;
+    }
+    .feedback-texto {
+        font-size: 20px;
+    }
+    
+}
